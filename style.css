@@ -1,0 +1,49 @@
+body {
+    background-color: #2c2c2c2c;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+#title,
+#key {
+    text-align: center;
+}
+
+#title>span {
+    text-decoration: underline;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#key {
+    font-size: 10vw;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+footer>p {
+    margin: 0;
+    text-align: center;
+}
+
+.em {
+    height: 1.5em;
+    width: 1.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.em-heart {
+    background-image: url("https://twemoji.maxcdn.com/2/72x72/2764.png");
+}
